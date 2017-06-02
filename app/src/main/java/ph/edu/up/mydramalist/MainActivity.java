@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             Log.v("SENDER", "title: " + title);
             Log.v("SENDER", "description: "+description);
 
-            Intent intent = new Intent(this, ViewDramaActivity.class);
+            Intent intent = new Intent(this, ViewDrama2Activity.class);
             intent.putExtra(TITLE, title);
             intent.putExtra(DESCRIPTION, description);
             startActivity(intent);
