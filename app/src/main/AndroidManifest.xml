@@ -20,14 +20,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditAddDrama"
+            android:name=".EditAddActivity"
             android:label="@string/title_activity_edit_add_drama"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ViewDramaActivity"
+            android:name=".ViewDramaInfoActivity"
             android:label="@string/title_activity_view_drama_info"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ViewDrama2Activity"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
